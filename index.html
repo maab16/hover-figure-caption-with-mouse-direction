@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hover Div</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<figure class="single-thumb">
+			<img src="images/kajol.jpg">
+			<figcaption class="caption"></figcaption>
+		</figure>
+
+		<figure class="single-thumb">
+			<img src="images/kajol.jpg">
+			<figcaption class="caption"></figcaption>
+		</figure>
+
+		<figure class="single-thumb">
+			<img src="images/kajol.jpg">
+			<figcaption class="caption"></figcaption>
+		</figure>
+
+		<figure class="single-thumb">
+			<img src="images/kajol.jpg">
+			<figcaption class="caption"></figcaption>
+		</figure>
+		<figure class="single-thumb">
+			<img src="images/kajol.jpg">
+			<figcaption class="caption"></figcaption>
+		</figure>
+
+		<figure class="single-thumb">
+			<img src="images/kajol.jpg">
+			<figcaption class="caption"></figcaption>
+		</figure>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/mouseDetect.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+
+			$('.single-thumb').each( function() {
+
+			 	$(this).mouseDetect({
+
+			 		parentWidth : '400px;',
+			 		parentHeight : '300px',
+			 		parentBgColor : '#fff',
+			 		captionBgColor : 'gray'
+			 	}); 
+
+			} );
+
+	 });
+	</script>
+</body>
+</html>

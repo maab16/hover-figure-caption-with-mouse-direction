@@ -1,0 +1,22 @@
+*{margin: 0px;padding: 0px}
+.container{
+
+	width: 1360px;
+	height: 100%;
+	margin: 200px auto;
+}
+
+figure.single-thumb{
+
+	width: '33.33%';
+	height: 300px;
+	float: left;
+	margin: 10px;
+}
+
+figure.single-thumb img{
+
+	max-width: 100%;
+	height: 300px;
+	
+}
