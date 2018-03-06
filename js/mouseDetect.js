@@ -1,3 +1,11 @@
+/**
+ * hover figure caption with mouse direction
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * Copyright 2016 MAAB
+ * http://www.github.com/maab16/hover-figure-caption-with-mouse-direction
+ */
 ;(function($,window,document,undefined){
 	'use strict';
 
